@@ -1,0 +1,161 @@
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    .name{
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        left: 100px;
+        top: 160px;
+        font-family: 'Bebas Neue', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 400px;
+        line-height: 480px;
+        letter-spacing: -0.03em;color: #252C35;
+    }
+    .text{
+        position: absolute;
+        width: 730px;
+        height: 279px;
+        left: 1040px;
+        top: 241px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 35px;
+
+            color: #252C35;
+        }
+    }
+    .portfolio{
+        position: absolute;
+        width: 1252px;
+        height: 500px;
+        left: 100px;
+        top: 534px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 400px;
+        line-height: 480px;
+        letter-spacing: -0.03em;
+        color: #252C35;
+    }
+    img{
+        position: absolute;
+        width: 195px;
+        height: 195px;
+        left: 466px;
+        top: 686px;
+    }
+}
+.works{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #252C35;
+    border-radius: 50px 50px 0px 0px;
+    .top{
+        position: absolute;
+        width: 1140px;
+        height: 350px;
+        left: 250px;
+        top: 229px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 300px;
+        line-height: 360px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+    .year{
+        position: absolute;
+        width: 451px;
+        height: 45px;
+        left: 250px;
+        top: 725px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            text-align: center;
+            width: 230px;
+            height: 0;
+            border: 1px solid #FFFFFF;
+        }
+    }
+    .bottom{
+        position: absolute;
+        width: 621px;
+        height: 350px;
+        left: 1049px;
+        top: 500px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 300px;
+        line-height: 360px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+}
+.dplanex{
+    width: 100%;
+    height: 100vh; 
+    background: #60269E;
+    position: relative;
+    .top{
+        position: absolute;
+        width: 327px;
+        height: 30px;
+        left: 796px;
+        top: 100px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            text-align: center;
+            width: 230px;
+            height: 0;
+            border: 1px solid #FFFFFF;
+        }
+    }
+    .middle{
+        position: absolute;
+        width: 270px;
+        height: 400px;
+        left: 1550px;
+        top: 225px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 350px;
+        line-height: 420px;
+        letter-spacing: -0.03em;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .middle_on {
+        background-color: red;
+    }
+    .bottom{}
+}
