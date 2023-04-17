@@ -13,7 +13,6 @@
         font-weight: 400;
         font-size: 400px;
         line-height: 480px;
-        letter-spacing: -0.03em;color: #252C35;
     }
     .text{
         position: absolute;
@@ -30,8 +29,6 @@
             font-weight: 400;
             font-size: 30px;
             line-height: 35px;
-
-            color: #252C35;
         }
     }
     .portfolio{
@@ -46,7 +43,6 @@
         font-size: 400px;
         line-height: 480px;
         letter-spacing: -0.03em;
-        color: #252C35;
     }
     img{
         position: absolute;
@@ -60,8 +56,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #252C35;
     border-radius: 50px 50px 0px 0px;
+    background-color: #252C35;
     .top{
         position: absolute;
         width: 1140px;
@@ -113,10 +109,9 @@
         color: #FFFFFF;
     }
 }
-.dplanex{
+.work{
     width: 100%;
     height: 100vh; 
-    background: #60269E;
     position: relative;
     .top{
         position: absolute;
@@ -154,8 +149,118 @@
         letter-spacing: -0.03em;
         color: rgba(255, 255, 255, 0.5);
     }
-    .middle_on {
-        background-color: red;
+    .bottom{
+        .text{
+            position: absolute;
+            width: 790px;
+            height: 350px;
+            left: 100px;
+            top: 630px;
+            p{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 29px;
+                color: #FFFFFF;
+            }
+            h3{
+                font-family: 'Bebas Neue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 300px;
+                line-height: 360px;
+                letter-spacing: -0.03em;
+                color: #FFFFFF;
+            }
+        }
+        img{
+            position: absolute;
+            width: 672px;
+            height: 528px;
+            left: 1148px;
+            top: 452px;
+        }
     }
-    .bottom{}
+}
+.dplanex{
+    background-color: #60269E;
+}
+.travello{
+    background-color: #26489E;
+}
+.puppy{
+    background-color: #F0BC00;
+}
+.bbubbu{
+    background-color: #E00F35;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    .top{
+        position: relative;
+        h2{
+            position: absolute;
+            width: 1381px;
+            height: 300px;
+            left: 100px;
+            top: 160px;
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 250px;
+            line-height: 300px;
+        }
+        a{
+            position: absolute;
+            width: 162px;
+            height: 35px;
+            left: 1634px;
+            top: 367px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 29px;
+            text-decoration-line: underline;
+        }
+    }
+    .middle{
+        position: relative;
+        img{
+            position: absolute;
+            width: 260px;
+            height: 260px;
+            left: 215px;
+            top: 441px;
+        }
+        h2{
+            position: absolute;
+            width: 1277px;
+            height: 300px;
+            left: 543px;
+            top: 421px;
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 250px;
+            line-height: 300px;
+        }
+    }
+    .bottom{
+        position: relative;
+        h2{
+            position: absolute;
+            width: 768px;
+            height: 300px;
+            left: 1052px;
+            top: 680px;
+            font-family: 'Bebas Neue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 250px;
+            line-height: 300px;
+        }
+    }
 }

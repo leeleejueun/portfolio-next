@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
+import styles from '@/styles/menu.module.scss'
 
 const Menu = () => {
   return (
-    <div>
+    <section className={styles.menu}>
         <div>HOPE YOU’RE HAVING A GREAT DAY!</div>
-        <div>
+        <div className={styles.half}>
             <p>LEE JUEUN -  PORTFOLIO 2023</p>
             <ul>
                 <li>
@@ -26,7 +27,7 @@ const Menu = () => {
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
   )
 }
 
