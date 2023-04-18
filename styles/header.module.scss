@@ -1,0 +1,113 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 0;
+    .logo{
+      a{
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        color: #252C35;
+      }
+    }
+    .btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 40px;
+      cursor: pointer;
+      border: none;
+      background-color: transparent;
+      span{
+        display: block;
+        width: 50px;
+        height: 5px;
+        background-color: #252C35;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+        :nth-child(2){
+          margin: 11px 0;
+        }
+      }
+    }
+    .btn.open{
+      z-index: inherit;
+      span {
+        background-color: #fff;
+        &:nth-child(1) {
+          transform: rotate(45deg) translate(12px, 12px);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg) translate(12px, -12px);
+        }
+      }
+    }
+    .menu{
+      display: none;
+    }
+    .menu.open{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      padding: 100px 100px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      .text{
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 35px;
+      }
+      .half{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50%;
+          height: 100%;
+          background-color: #252C35;
+          ul{
+              position: absolute;
+              width: 100%;
+              left: 0;
+              bottom: 0;
+              padding: 100px;
+              li{
+                  display: flex;
+                  justify-content: space-between;
+                  p{
+                      font-family: 'Raleway';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 30px;
+                      line-height: 35px;
+                      color: #FFFFFF;
+                      transform: translateY(10%);
+                  }
+                  a{
+                      font-family: 'Bebas Neue';
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 150px;
+                      line-height: 180px;
+                      color: #FFFFFF;
+                  }
+              }
+          }
+      }
+    }
+  }

@@ -1,0 +1,85 @@
+.content01{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    h3{
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 180px;
+        margin-bottom: 1%;
+    }
+    :nth-child(1){
+        margin-top: 115px;
+    }
+    :nth-child(2){
+        display: inline-block;
+    }
+    :nth-child(3){
+        display: inline-block;
+    }
+}
+.content02{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    h3{
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 125px;
+        line-height: 170px;
+        margin-bottom: 2%;
+    }
+    :nth-child(1){
+        margin-top: 100px;
+    }
+}
+.content03{
+    width: 100%;
+    height: 100vh;
+    background-color: #252C35;
+    color: #fff;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    h3{
+        margin-top: 60px;
+        width: 708px;
+        height: 799px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 200px;
+        line-height: 275px;
+    }
+    ul{
+        margin-top: 60px;
+        li{
+            display: flex;
+            height: 92px;
+            align-items: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+            h4{
+                font-family: 'Bebas Neue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 42px;
+                width: 146px;
+            }
+            p{
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+            }
+        }
+        :last-child{
+            border: none;
+        }
+    }
+}

@@ -1,16 +1,48 @@
-import React from 'react'
-import Menu from './Menu'
+import React, { useState } from 'react'
+import styles from '@/styles/header.module.scss'
+import Link from 'next/link';
 
 const Header = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleMenu =() => {
+    setIsOpen(!isOpen);
+  }
+
   return (
-    <nav className='header'>
-        <div>je</div>
-        <button>
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <Menu/>
+    <nav className={styles.header}>
+      <div className={styles.logo}>
+        <Link href="/">JE</Link>
+      </div>
+      <button className={`${styles.btn} ${isOpen ? styles.open : ""}`} onClick={handleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+      <section className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+          <div className={styles.text}>HOPE YOU’RE HAVING A GREAT DAY!</div>
+          <div className={styles.half}>
+              <ul>
+                  <li>
+                      <p>/01</p>
+                      <Link href="/" onClick={handleMenu}>HOME</Link>
+                  </li>
+                  <li>
+                      <p>/02</p>
+                      <Link href="/About">About</Link>
+                  </li>
+                  <li>
+                      <p>/03</p>
+                      <Link href="/Works">Works</Link>
+                  </li>
+                  <li>
+                      <p>/04</p>
+                      <Link href="/Contact">Contact</Link>
+                  </li>
+              </ul>
+          </div>
+      </section>
     </nav>
   )
 }

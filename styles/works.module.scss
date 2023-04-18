@@ -1,0 +1,93 @@
+.works{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #252C35;
+    color: #fff;
+    overflow: hidden;
+    .text{
+        position: absolute;
+        right: 100px;
+        top: 184px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 29px;
+        color: #fff;
+    }
+    .menu{
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        .work{
+            position:absolute;
+            left:0; bottom:0;
+            transform: rotate(-90deg);
+            transform-origin: left center;
+            &:nth-child(1){left:20%;}
+            &:nth-child(2){left:40%;}
+            &:nth-child(3){left:60%;}
+            &:nth-child(4){left:80%;}
+            a{
+                color: #fff;
+                .detail{
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 23px;
+                    opacity: 0;
+                }
+                .title{
+                    font-family: 'Bebas Neue';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 150px;
+                    line-height: 180px;
+                    position: relative;
+                    white-space: nowrap;
+                }
+                .image{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    transform: translateX(100%) rotate(90deg);
+                    opacity: 0;
+                }
+            }
+        }
+        .dplanex:hover{
+            .detail{
+                opacity: 1;
+            }
+            .image{
+                opacity: 1;
+            }
+        }
+        .travello:hover{
+            .detail{
+                opacity: 1;
+            }
+            .image{
+                opacity: 1;
+            }
+        }
+        .puppy:hover{
+            .detail{
+                opacity: 1;
+            }
+            .image{
+                opacity: 1;
+            }
+        }
+        .bbubbu:hover{
+            .detail{
+                opacity: 1;
+            }
+            .image{
+                opacity: 1;
+            }
+        }
+    }
+}
