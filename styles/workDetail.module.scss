@@ -1,0 +1,211 @@
+.closebtn{
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 1.875rem;
+    text-align: center;
+    line-height: 3.75rem;
+    z-index: 999;
+}
+.content01{
+    width: 100%;
+    height: 100vh;
+    background-color: #60269E;
+    color: #Fff;
+    overflow: hidden;
+    position: relative;
+    .titleWrap{
+        height: 70%;
+        .moveWrap{
+            width: 130%;
+            display: flex;
+            justify-content: space-around;
+            div{
+                font-family: 'Bebas Neue';
+                font-weight: 400;
+                font-size: 9.375rem;
+            }
+        }
+        .top{
+            position: absolute;
+            top: 35%;
+        }
+        .bottom{
+            position: absolute;
+            top: 50%;
+        }
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .detail{
+        height: 30%;
+        display: flex;
+        max-width: 72.91666666666667%;
+        justify-content: space-between;
+        margin: 0 auto;
+        .detailText{
+            display: flex;
+            .detailTitle{
+                font-family: 'Raleway';
+                font-weight: 400;
+                font-size: 1.563rem;
+                border: 1px solid #FFFFFF; 
+                border-radius: 10px;
+                width: 135px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                margin-right: 10%;
+            }
+            .detailWrap{
+                display: flex;
+                flex-direction: column;
+                p{
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                    font-size: 1.563rem;
+                    margin-bottom: 5%;
+                }
+            }
+        }
+    }
+}
+.content02{
+    width: 100%;
+    position: relative;
+    padding: 160px 100px;
+    overflow: hidden;
+    h3{
+        font-family: 'Bebas Neue';
+        font-weight: 400;
+        font-size: 6.25rem;
+        color: #252C35;
+    }
+    .overview{
+        display: flex;
+        margin-bottom: 100px;
+        .image{
+            width: 50%;
+            img{}
+        }
+        .text{
+            width: 50%;
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 1.563rem;
+            .info{
+                div{
+                    font-weight: 700;
+                    margin-bottom: 5%;
+                }
+                p{
+                    width: 90%;
+                }
+                margin-bottom: 15%;
+            }
+            .view{
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .visual{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            border: 3px solid #000000;
+            border-radius: 30px;
+            width: 45%;
+            height: 1000px;
+            justify-content: space-between;
+            position: relative;
+            img{}
+        }
+        .box01{
+            img{
+                position: absolute;
+                width: 300px;
+            }
+            :nth-child(1){
+                top: 110px;
+                left: 60px;
+            }
+            :nth-child(2){
+                bottom: 110px;
+                right: 60px;
+            }
+        }
+        .box02{
+            img{
+                position: absolute;
+                width: 695px;
+            }
+            :nth-child(1){
+                top: 110px;
+                left: 37px;
+            }
+            :nth-child(2){
+                bottom: 110px;
+                right: 37px;
+            }
+        }
+    }
+    .moveText{
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        display: flex;
+        width: 2000px;
+        justify-content: space-between;
+        h4{
+            font-family: 'Bebas Neue';
+            font-weight: 400;
+            font-size: 1.25rem;
+            color: #60269E;
+        }
+    }
+}
+.content03{
+    width: 100%;
+    height: 100vh;
+    background-color: #252C35;
+    position: relative;
+    a{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        div{
+            font-family: 'Bebas Neue';
+            font-weight: 400;
+            font-size: 25rem;
+            color: #FFFFFF;
+        }
+        img{
+            display: none;
+        }
+    }
+    :hover{
+        img{
+            display: block;
+        }
+    }
+}

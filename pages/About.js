@@ -57,7 +57,7 @@ const About = () => {
           </li>
         </ul>
       </section>
-      <Footer color='white' />
+      <Footer color='0' />
     </>
   )
 }

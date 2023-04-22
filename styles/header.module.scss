@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 160px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -12,10 +12,8 @@
     .logo{
       a{
         font-family: 'Bebas Neue';
-        font-style: normal;
         font-weight: 400;
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 3.125rem;
         color: #252C35;
       }
     }
@@ -61,17 +59,15 @@
       width: 100%;
       height: 100vh;
       display: flex;
-      padding: 100px 100px;
+      padding: 5.208333333333333%;
       position: fixed;
       top: 0;
       left: 0;
       background-color: #fff;
       .text{
           font-family: 'Raleway';
-          font-style: normal;
           font-weight: 400;
-          font-size: 30px;
-          line-height: 35px;
+          font-size: 1.875rem;
       }
       .half{
           position: absolute;
@@ -85,25 +81,22 @@
               width: 100%;
               left: 0;
               bottom: 0;
-              padding: 100px;
+              padding: 10.41666666666667%;
               li{
                   display: flex;
                   justify-content: space-between;
                   p{
                       font-family: 'Raleway';
-                      font-style: normal;
                       font-weight: 400;
-                      font-size: 30px;
-                      line-height: 35px;
+                      font-size: 1.875rem;
                       color: #FFFFFF;
                       transform: translateY(10%);
                   }
                   a{
                       font-family: 'Bebas Neue';
-                      font-style: normal;
                       font-weight: 400;
-                      font-size: 150px;
-                      line-height: 180px;
+                      font-size: 9.375rem;
+                      line-height: 11.25rem;
                       color: #FFFFFF;
                   }
               }

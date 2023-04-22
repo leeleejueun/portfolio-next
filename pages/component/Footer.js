@@ -8,7 +8,7 @@ const Footer = ({color}) => {
   // const [colorChange,setColorChange] = useState();
   // setColorChange(color);
   return (
-    <section className={`${styles.footer}`}>
+    <section className={`${styles.footer} panel`}>
       <div className={styles.background}>
         <div className={styles.top}>
           <div className={styles.menu}>

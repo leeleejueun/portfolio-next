@@ -9,10 +9,10 @@
         color: #fff;
         .top{
             position: absolute;
-            width: 1595px;
-            height: 250px;
-            left: 162px;
-            top: 100px;
+            width: calc(100% - 324px);
+            height: 23.14814814814815%;
+            left: 8.4375%;
+            top: 9.259259259259259%;
             display: flex;
             justify-content: space-between;
             .menu{
@@ -21,26 +21,23 @@
                     display: flex;
                     p{
                         font-family: 'Raleway';
-                        font-style: normal;
                         font-weight: 400;
-                        font-size: 20px;
-                        line-height: 23px;
-                        margin-right: 20px;
+                        font-size: 1.25rem;
+                        margin-right: 15%;
                     }
                     .title{
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
                         .menuTitle{
-                            font-size: 30px;
-                            line-height: 35px;
+                            font-size: 1.875rem;
+                            line-height: 2.188rem;
                             }
                         li{
                             font-family: 'Raleway';
-                            font-style: normal;
                             font-weight: 400;
-                            font-size: 25px;
-                            line-height: 29px;
+                            font-size: 1.563rem;
+                            z-index: 999;
                             a{
                                 color: #fff;
                             }
@@ -48,24 +45,22 @@
                     }
                 }
                 .menu01{
-                    margin-right: 168px;
+                    margin-right: 50%;
                     .title{
-                        height: 250px;
+                        height: 100%;
                     }
                 }
                 .menu02{
                     .title{
-                        height: 196px;
+                        height: 79%;
                     }
                 }
             }
             .contact{
                 a{
                     font-family: 'Raleway';
-                    font-style: normal;
                     font-weight: 400;
-                    font-size: 30px;
-                    line-height: 35px;
+                    font-size: 1.875rem;
                     text-decoration-line: underline;
                     color: #fff;
                 }
@@ -73,30 +68,27 @@
         }
         .bottom{
             position: absolute;
-            width: 1645px;
-            height: 591px;
-            left: 137px;
-            top: 385px;
+            width: 85.67708333333333%;
+            height: 54.72222222222222%;
+            left: 7.135416666666667%;
+            bottom: 9.259259259259259%;
             h2{
-                height: 540px;
+                height: 91.37055837563452%;
                 font-family: 'Bebas Neue';
-                font-style: normal;
                 font-weight: 400;
-                font-size: 550px;
-                line-height: 660px;
+                font-size: 34.375rem;
+                line-height: 41.25rem;
                 letter-spacing: -0.03em;
             }
             .text{
                 display: flex;
                 justify-content: space-between;
-                width: 1599px;
+                width: 97.20364741641337%;
                 margin: 0 auto;
                 p{
                     font-family: 'Raleway';
-                    font-style: normal;
                     font-weight: 400;
-                    font-size: 25px;
-                    line-height: 29px;
+                    font-size: 1.563rem;
                 }
                 a{
                     color: #fff;

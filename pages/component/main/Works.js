@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '@/styles/main.module.scss'
 
+
 const works = () => {
+
+
   return (
     <>
-        <section className={styles.works}>
+        <section className={`${styles.works} panel`}>
             <h2 className={styles.top}>PARTICIPATED</h2>
             <div className={styles.year}>
                 <p>2022</p>
@@ -13,7 +16,7 @@ const works = () => {
             </div>
             <h2 className={styles.bottom}>WORKS</h2>
         </section>
-        <section className={`${styles.dplanex} ${styles.work}`}>
+        <section className={`${styles.dplanex} ${styles.work} panel`}>
             <div className={styles.top}>
                 <p>01</p>
                 <span></span>
@@ -30,7 +33,7 @@ const works = () => {
                 <img src='/img/main/dplanex.png' />
             </div>
         </section>
-        <section className={`${styles.travello} ${styles.work}`}>
+        <section className={`${styles.travello} ${styles.work} panel`}>
             <div className={styles.top}>
                 <p>02</p>
                 <span></span>
@@ -47,7 +50,7 @@ const works = () => {
                 <img src='/img/main/travello.png' />
             </div>
         </section>
-        <section className={`${styles.puppy} ${styles.work}`}>
+        <section className={`${styles.puppy} ${styles.work} panel`}>
             <div className={styles.top}>
                 <p>03</p>
                 <span></span>
@@ -64,7 +67,7 @@ const works = () => {
                 <img src='/img/main/puppy.png' />
             </div>
         </section>
-        <section className={`${styles.bbubbu} ${styles.work}`}>
+        <section className={`${styles.bbubbu} ${styles.work} panel`}>
             <div className={styles.top}>
                 <p>04</p>
                 <span></span>

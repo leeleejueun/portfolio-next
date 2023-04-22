@@ -30,15 +30,15 @@ const Header = () => {
                   </li>
                   <li>
                       <p>/02</p>
-                      <Link href="/About">About</Link>
+                      <Link href="/About" onClick={handleMenu}>About</Link>
                   </li>
                   <li>
                       <p>/03</p>
-                      <Link href="/Works">Works</Link>
+                      <Link href="/Works" onClick={handleMenu}>Works</Link>
                   </li>
                   <li>
                       <p>/04</p>
-                      <Link href="/Contact">Contact</Link>
+                      <Link href="/Contact" onClick={handleMenu}>Contact</Link>
                   </li>
               </ul>
           </div>

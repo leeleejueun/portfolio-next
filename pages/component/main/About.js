@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const about = () => {
   return (
-    <section className={styles.about}>
+    <section className={`${styles.about} panel`}>
       <div className={styles.top}>
         <h2>GOOD TO SEE  YOU!</h2>
         <Link href="/About">LEARN MORE</Link>

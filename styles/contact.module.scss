@@ -1,0 +1,64 @@
+.please{
+    width: 100%;
+    height: 100vh;
+    padding: 160px 100px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        h2{
+            font-family: 'Bebas Neue';
+            font-weight: 400;
+            font-size: 15.625rem;
+            color: #252C35;
+        }
+        img{
+            width: 355px;
+            height: 355px;
+        }
+    }
+    .bottom{
+        p{
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 2.5rem;
+            color: #000000;
+        }
+    }
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: #252C35;
+    color: #FFFFFF;
+    padding: 200px 300px;
+    h3{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 3.125rem;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        .qr{
+            img{
+                width: 355px;
+                height: 355px;
+                margin-bottom: 5%;
+            }
+            p{text-align: center;}
+        }
+        .email{
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 3.125rem;
+            div{
+                margin-bottom: 5%;
+            }
+            p{
+                font-size: 2.813rem;
+            }
+        }
+    }
+}
